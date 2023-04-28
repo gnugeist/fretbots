@@ -71,7 +71,7 @@
 			-- if true, announce awards to chat
 			announce = true,
 			-- Assign randomly, or roll specific per role down the line? (former is easier)
-			assignRandomly = true
+			assignRandomly = false
 		},
 		-- used for awarding bonus gold periodically.  The method that does this award calculates target
 		-- gpm and then adds gold to the bot to attempt to force it to that level of gpm, modified by
